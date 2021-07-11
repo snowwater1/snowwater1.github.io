@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body {
+    height: 100%;
+
+    line-height: 30px;
+}
+body {
+    text-shadow: 1px 0px 0 #ccc;
+    background-image: linear-gradient(to bottom, #0D68BC, #90ADE0);
+    background-repeat: no-repeat;
+    color: #90ADE0;
+}
+h3
+{
+	background-color: #90ADE0;
+	font-size: 40px;
+	text-align: center;
+}
+input
+{
+	width: 500px;
+	height: 40px;
+	margin-top: 10px;
+	font-size: 30px;
+	color: red;
+}
+button
+{
+height: 40px;
+width: 100px;
+margin-left: 10px;
+font-size: 24px;
+}
+.box
+{
+	height: auto;
+	width: 100%;
+	background: greenyellow;
+	color: brown;
+}
+section {
+    text-align: center;
+}
+
+.icon {
+    background-image: url(../images/days/xue.png);
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 42px;
+    background-position: center center;
+    margin: 10px auto;
+}
+main .temp {
+    font-size: 18px;
+}
+
+main .temp sup {
+    font-size: 20px;
+}
+
+main .wind, .main .current {
+    font-size: 14px;
+}
+.item {
+    float: left;
+    width: 33.333333%;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+section:nth-last-child(1).item {
+    border-right: none;
+}
+
+footer {
+    font-size: 14px;
+    width: 60%;
+    margin: 30px auto 0 auto;
+}
+
+footer .icon {
+    margin: 5px auto;
+    opacity: 0.7;
+    background-image: url(../images/days/qing.png);
+    /* width: 128px;
+    height: 128px;
+    background-size: 50%; */
+}
+
+.clearfix:after {
+    height: 0;
+    display: block;
+    content: "";
+    clear: both;
+}
+			
